@@ -204,12 +204,12 @@ const WorkPage = () => {
                         techUsed={["ReactJS", "Typescript", "SASS"]}
                       />
                       <CardItemMobile
-                        picture="/PortfolioThumbnail/recipify.png"
-                        title="Recipify"
-                        description="Quickly Find The Best Recipies for you Meals"
-                        link="https://recipeefy.netlify.app/"
+                        picture="/PortfolioThumbnail/eshopper.png"
+                        title="E-Shopper"
+                        description="A Multi Collection Ecommerce web application where shoppers can easily add products to cart, sign in or sign up and checkout with Stripe"
+                        link="https://eshopper-qrkd.onrender.com/"
                         buttonclick={toggle}
-                        techUsed={["ReactJS", "Bootstrap", "Git"]}
+                        techUsed={["ReactJS", "Bootstrap", "Stripe"]}
                       />
                       <CardItemMobile
                         picture="/PortfolioThumbnail/voluntrify.png"
@@ -225,12 +225,28 @@ const WorkPage = () => {
                         ]}
                       />
                       <CardItemMobile
+                        picture="/PortfolioThumbnail/recipify.png"
+                        title="Recipify"
+                        description="Quickly Find The Best Recipies for you Meals"
+                        link="https://recipeefy.netlify.app/"
+                        buttonclick={toggle}
+                        techUsed={["ReactJS", "Bootstrap", "Git"]}
+                      />
+                      <CardItemMobile
                         picture="/PortfolioThumbnail/weather-app.png"
                         title="Weather APP"
                         description="Quickly Find the weather condition of some top cities around the world"
                         link="https://weathernyzer.netlify.app"
                         buttonclick={toggle}
                         techUsed={["ReactJS", "CSS3", "Javascript"]}
+                      />
+                      <CardItemMobile
+                        picture="/PortfolioThumbnail/devconnector.png"
+                        title="Dev Connector"
+                        description="A Place for developers."
+                        link="https://devconnector-hs2m.onrender.com/"
+                        buttonclick={toggle}
+                        techUsed={["ReactJS", "Css3"]}
                       />
                       <CardItemMobile
                         picture="/PortfolioThumbnail/hangman.png"
@@ -271,6 +287,19 @@ const WorkPage = () => {
                         ]}
                       />
                       <CardItemMobile
+                        picture="/PortfolioThumbnail/eshopper.png"
+                        title="E-Shopper"
+                        description="A Multi Collection Ecommerce web application where shoppers can easily add products to cart, sign in or sign up and checkout with Stripe"
+                        link="https://eshopper-qrkd.onrender.com/"
+                        buttonclick={toggle}
+                        techUsed={[
+                          "NodeJS",
+                          "ExpressJS",
+                          "Stripe",
+                          "Cloudinary",
+                        ]}
+                      />
+                      <CardItemMobile
                         picture="/PortfolioThumbnail/youtube-downloader.png"
                         title="Youtube Downloader"
                         description="A simple Backend Web API for Downloading Youtube Videos"
@@ -287,6 +316,14 @@ const WorkPage = () => {
                         techUsed={["Node.js", "Express", "Boostrap", "NLP"]}
                       />
                       <CardItemMobile
+                        picture="/PortfolioThumbnail/devconnector.png"
+                        title="Dev Connector"
+                        description="A Place for developers."
+                        link="https://devconnector-hs2m.onrender.com/"
+                        buttonclick={toggle}
+                        techUsed={["NodeJS", "ExpressJS", "Gravatar"]}
+                      />
+                      <CardItemMobile
                         picture="/PortfolioThumbnail/hospital-app.png"
                         title="Hospital Listing Application"
                         description="A CRUD application, that allows users to list and see Hospitals around Nigeria"
@@ -297,7 +334,59 @@ const WorkPage = () => {
                     </div>
                   </div>
                 </Tab.Panel>
-                <Tab.Panel>The Fullstack realm Here</Tab.Panel>
+                <Tab.Panel>
+                  <div className="flex flex-col w-full lg:h-[500px] items-center overflow-hidden">
+                    <div
+                      id="main"
+                      className="w-fit grid grid-col-1 md:grid-cols-2 gap-[18px] overflow-y-auto"
+                    >
+                      <CardItemMobile
+                        picture="/PortfolioThumbnail/everytindiscount.png"
+                        title="Everytindiscount"
+                        description="A Fullstack E-commerce Platform for Mobile Data, Movie Ticket and Airtime Recharge."
+                        link="https://everytindiscount.onrender.com/"
+                        buttonclick={toggle}
+                        techUsed={[
+                          "ReactJS",
+                          "NodeJS",
+                          "Prisma",
+                          "GraphQL",
+                          "MongoDB",
+                        ]}
+                      />
+                      <CardItemMobile
+                        picture="/PortfolioThumbnail/eshopper.png"
+                        title="E-Shopper"
+                        description="A Multi Collection Ecommerce web application where shoppers can easily add products to cart, sign in or sign up and checkout with Stripe"
+                        link="https://eshopper-qrkd.onrender.com/"
+                        buttonclick={toggle}
+                        techUsed={[
+                          "ReactJS",
+                          "NodeJS",
+                          "MongoDB",
+                          "ExpressJS",
+                          "Stripe",
+                          "Cloudinary",
+                        ]}
+                      />
+                      <CardItemMobile
+                        picture="/PortfolioThumbnail/devconnector.png"
+                        title="Dev Connector"
+                        description="A Place for developers."
+                        link="https://devconnector-hs2m.onrender.com/"
+                        buttonclick={toggle}
+                        techUsed={[
+                          "ReactJS",
+                          "Css3",
+                          "NodeJS",
+                          "ExpressJS",
+                          "Github",
+                          "Gravatar",
+                        ]}
+                      />
+                    </div>
+                  </div>
+                </Tab.Panel>
               </Tab.Panels>
             </Tab.Group>
             <div className="flex fixed flex-col w-fit h-fit top-[78%] left-[81%] md:left-[86%] z-50">

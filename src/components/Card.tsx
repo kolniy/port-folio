@@ -61,7 +61,7 @@ const CardItemMobile = (props: Card) => {
             style={{
               display: "-webkit-box",
               WebkitLineClamp: 3,
-              webkitBoxOrient: "vertical",
+              WebkitBoxOrient: "vertical",
               overflow: "hidden",
               textOverflow: "ellipsis",
             }}
